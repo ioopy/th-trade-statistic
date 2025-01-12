@@ -49,7 +49,7 @@ def create_region_file(json_file_path, csv_file_path, countries_json_path, month
                     "Month": month,
                     "Year": year,
                     "Region": record.get("Region", ""),
-                    "HS Code": record.get("ID", ""),
+                    "HS Code": str(record.get("ID", "")),
                     "Title": record.get("ProductName", ""),
                     "Quantity": record.get("QuantityMonth", ""),
                     "Value": record.get("ValueMonth", ""),
