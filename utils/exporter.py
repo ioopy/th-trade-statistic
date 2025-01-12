@@ -33,7 +33,7 @@ def create_region_file(json_file_path, csv_file_path, countries_json_path, month
         data.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
 
         # Create the CSV file
-        with open(csv_file_path, 'w', encoding='utf-8', newline='') as csv_file:
+        with open(csv_file_path, 'w', encoding='utf-8-sig', newline='') as csv_file:
             # Define column headers
             headers = ["Month", "Year", "Region", "HS Code", "Title", "Quantity", "Value", "Accu Quantity", "Accu Value", "Share"]
             
@@ -95,7 +95,7 @@ def create_countries_file(json_file_path, csv_file_path, countries_json_path, mo
         data.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
 
         # Create the CSV file
-        with open(csv_file_path, 'w', encoding='utf-8', newline='') as csv_file:
+        with open(csv_file_path, 'w', encoding='utf-8-sig', newline='') as csv_file:
             # Define column headers
             headers = ["Month", "Year", "Country", "Im/Ex", "HS Code", "Title", "AgriQuantity", "AgriValue", "Sum AgriQuantity", "Sum AgriValue", "Share"]
             

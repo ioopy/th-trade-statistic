@@ -4,6 +4,7 @@ from menu import menu
 import yaml
 from yaml.loader import SafeLoader
 from streamlit_authenticator.utilities.exceptions import (LoginError)
+import os
 
 from utils.func import hide_header_icons 
 
@@ -50,6 +51,12 @@ except LoginError as e:
 if st.session_state["authentication_status"]:
     st.session_state.authenticator = authenticator
     menu(True) 
+    csv_file_path = "data/export_region.csv"   # Replace with your desired CSV output path
+    csv_countries_file_path = "data/export_countries.csv" 
+
+    for file_path in [csv_file_path, csv_countries_file_path]:
+        if os.path.exists(file_path):
+            os.remove(file_path) 
     st.switch_page("pages/Home.py")
 elif st.session_state["authentication_status"] is False:
     st.error("Username/password is incorrect")

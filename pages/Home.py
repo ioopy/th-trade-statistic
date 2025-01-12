@@ -37,7 +37,7 @@ def create_multiselect(label, options, default_values):
     """Create a multiselect and return the selected options."""
     selected_values = st.multiselect(label, [f"{opt['Code2']} : {opt['nameEn']}" for opt in options], default=default_values)
     return [
-        {"id": opt["id"], "text": f"{opt['Code2']} : {opt['nameTh']}"}
+        {"id": opt["id"], "text": f"{opt['Code2']} : {opt['nameEn']}"}
         for opt in options
         if f"{opt['Code2']} : {opt['nameEn']}" in selected_values
     ]
@@ -88,19 +88,19 @@ def main():
     selected_harmonize = create_selectbox("Select Harmonize Digits", harmonize_options, default_index=1)
 
     # HS Code and Order By Selection
-    col1, col2 = st.columns(2)
-    with col1:
-        hs_code = st.text_input("Enter HS Code (max 11 characters)", max_chars=11)
-    with col2:
-        order_by_options = [
-            {"id": "value_desc", "text": "Value (from highest to lowest)"},
-            {"id": "value_asc", "text": "Value (from lowest to highest)"},
-            {"id": "hscode_desc", "text": "Hscode (from highest to lowest)"},
-            {"id": "hscode_asc", "text": "Hscode (from lowest to highest)"},
-        ]
-        selected_order = create_selectbox("Select Order By", order_by_options, default_index=1)
+    # col1, col2 = st.columns(2)
+    # with col1:
+    #     hs_code = st.text_input("Enter HS Code (max 11 characters)", max_chars=11)
+    # with col2:
+    #     order_by_options = [
+    #         {"id": "value_desc", "text": "Value (from highest to lowest)"},
+    #         {"id": "value_asc", "text": "Value (from lowest to highest)"},
+    #         {"id": "hscode_desc", "text": "Hscode (from highest to lowest)"},
+    #         {"id": "hscode_asc", "text": "Hscode (from lowest to highest)"},
+    #     ]
+    #     selected_order = create_selectbox("Select Order By", order_by_options, default_index=1)
 
-    # Language Selection
+    # # Language Selection
     selected_language = st.radio("Select Language", ["th", "en"], index=1, horizontal=True)
 
     # Define file paths
@@ -118,8 +118,11 @@ def main():
             "month": selected_month,
             "currency": selected_currency,
             "hscodedigits": selected_harmonize["id"],
-            "hscode": hs_code,
-            "sort": selected_order,
+            "hscode": '',
+            "sort": {
+                "id": "value_asc",
+                "text": "Value (Ascending)"
+            },
             "lang": selected_language
         }
 
