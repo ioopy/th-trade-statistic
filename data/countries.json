@@ -1,0 +1,2030 @@
+[
+    {
+        "id": "263",
+        "nameTh": "โลก",
+        "nameEn": "WORLD",
+        "Code2": "00"
+    },
+    {
+        "id": "264",
+        "nameTh": "ทวีปเอเชีย",
+        "nameEn": "ASIA",
+        "Code2": "1A"
+    },
+    {
+        "id": "310",
+        "nameTh": "ทวีปยุโรป",
+        "nameEn": "EUROPE",
+        "Code2": "1B"
+    },
+    {
+        "id": "369",
+        "nameTh": "ทวีปอเมริกาเหนือ",
+        "nameEn": "NORTH AMERICA",
+        "Code2": "1C"
+    },
+    {
+        "id": "405",
+        "nameTh": "ทวีปอเมริกาใต้",
+        "nameEn": "SOUTH AMERICA",
+        "Code2": "1D"
+    },
+    {
+        "id": "423",
+        "nameTh": "ทวีปแอฟริกา",
+        "nameEn": "AFRICA",
+        "Code2": "1E"
+    },
+    {
+        "id": "482",
+        "nameTh": "ทวีปออสเตรเลีย",
+        "nameEn": "AUSTRALIA & OCEANIA",
+        "Code2": "1F"
+    },
+    {
+        "id": "507",
+        "nameTh": "ประเทศอื่น",
+        "nameEn": "OTHER COUNTRIES",
+        "Code2": "1G"
+    },
+    {
+        "id": "370",
+        "nameTh": "อเมริกาเหนือ",
+        "nameEn": "NORTHERN AMERICA",
+        "Code2": "2A"
+    },
+    {
+        "id": "556",
+        "nameTh": "สหภาพยุโรป(15)",
+        "nameEn": "EU(15)",
+        "Code2": "2B"
+    },
+    {
+        "id": "301",
+        "nameTh": "เอเชียตะวันออก",
+        "nameEn": "EASTERN ASIA",
+        "Code2": "2D"
+    },
+    {
+        "id": "561",
+        "nameTh": "อาเซียน(9)",
+        "nameEn": "ASEAN(9)",
+        "Code2": "2E"
+    },
+    {
+        "id": "583",
+        "nameTh": "อาเซียน(5)",
+        "nameEn": "ASEAN5",
+        "Code2": "2F"
+    },
+    {
+        "id": "584",
+        "nameTh": "อินโดจีน(4)",
+        "nameEn": "INDOCHAINA",
+        "Code2": "2G"
+    },
+    {
+        "id": "585",
+        "nameTh": "จีนและฮ่องกง",
+        "nameEn": "CHINA&HK",
+        "Code2": "2H"
+    },
+    {
+        "id": "586",
+        "nameTh": "อินเดีย",
+        "nameEn": "INDIA",
+        "Code2": "2I"
+    },
+    {
+        "id": "580",
+        "nameTh": "ตะวันออกกลาง(15)",
+        "nameEn": "Middle East(15)",
+        "Code2": "2J"
+    },
+    {
+        "id": "582",
+        "nameTh": "ลาตินอเมริกา",
+        "nameEn": "Latin America.",
+        "Code2": "2K"
+    },
+    {
+        "id": "374",
+        "nameTh": "อเมริกากลาง",
+        "nameEn": "CENTRAL AMERICA",
+        "Code2": "2L"
+    },
+    {
+        "id": "568",
+        "nameTh": "คาริเบียน",
+        "nameEn": "CARIBBEAN",
+        "Code2": "2M"
+    },
+    {
+        "id": "329",
+        "nameTh": "ยุโรปตะวันออก",
+        "nameEn": "EASTERN EUROPE",
+        "Code2": "2N"
+    },
+    {
+        "id": "587",
+        "nameTh": "เอเชียกลาง",
+        "nameEn": "Central Asia",
+        "Code2": "2O"
+    },
+    {
+        "id": "588",
+        "nameTh": "ความตกลงหุ้นส่วนทางเศรษฐกิจระดับภูมิภาค (RCEP) (15) (Including India)",
+        "nameEn": "RCEP  (15) (Including India)",
+        "Code2": "2P"
+    },
+    {
+        "id": "589",
+        "nameTh": "ความตกลงหุ้นส่วนยุทธศาสตร์เศรษฐกิจเอเชีย-แปซิฟิก(TPP-12)",
+        "nameEn": "Tran Pacific Partnership(TPP-12)",
+        "Code2": "2Q"
+    },
+    {
+        "id": "602",
+        "nameTh": "ความตกลงที่ครอบคลุมและก้าวหน้าสำหรับหุ้นส่วนทางเศรษฐกิจภาคพื้นแปซิฟิค (CPTPP)",
+        "nameEn": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)",
+        "Code2": "2R"
+    },
+    {
+        "id": "606",
+        "nameTh": "สหภาพเศรษฐกิจยูเรเซีย",
+        "nameEn": "Eurasian Economic Union (EAEU)",
+        "Code2": "2S"
+    },
+    {
+        "id": "614",
+        "nameTh": "ความตกลงหุ้นส่วนทางเศรษฐกิจระดับภูมิภาค (RCEP) (14)",
+        "nameEn": "RCEP(14)",
+        "Code2": "2T"
+    },
+    {
+        "id": "629",
+        "nameTh": "กรอบอาเซียน+8",
+        "nameEn": "ASEAN+8",
+        "Code2": "2U"
+    },
+    {
+        "id": "554",
+        "nameTh": "กลุ่มความร่วมมือทางเศรษฐกิจในเอเชีย-แปซิฟิก(เอเปค)",
+        "nameEn": "Asia-Pacific Economic Cooperation (APEC)",
+        "Code2": "3A"
+    },
+    {
+        "id": "555",
+        "nameTh": "กลุ่มการประชุมเอเชีย-ยุโรป(อาเซม)",
+        "nameEn": "Asia-Europe Meeting (ASEM)",
+        "Code2": "3B"
+    },
+    {
+        "id": "540",
+        "nameTh": "กลุ่มสามเหลี่ยมเศรษฐกิจ",
+        "nameEn": "INDO-MALAY-THAI",
+        "Code2": "3D"
+    },
+    {
+        "id": "542",
+        "nameTh": "กลุ่มหกเหลี่ยมเศรษฐกิจ",
+        "nameEn": "GMS-EC",
+        "Code2": "3E"
+    },
+    {
+        "id": "552",
+        "nameTh": "ความริเริ่มแห่งอ่าวเบงกอลว่าวด้วยความร่วมมือหลากหลายสาขาทางเทคนิคและเศรษฐกิจ(บิมสเทค)",
+        "nameEn": "BIMSTEC",
+        "Code2": "3F"
+    },
+    {
+        "id": "557",
+        "nameTh": "สหภาพยุโรป(10)",
+        "nameEn": "EU(10)",
+        "Code2": "3G"
+    },
+    {
+        "id": "553",
+        "nameTh": "สหภาพยุโรป(25)",
+        "nameEn": "EU(25)",
+        "Code2": "3I"
+    },
+    {
+        "id": "566",
+        "nameTh": "สหภาพยุโรป(27)",
+        "nameEn": "EU(27)",
+        "Code2": "3J"
+    },
+    {
+        "id": "550",
+        "nameTh": "สมาคมแห่งภูมิภาคมหาสมุทรอินเดีย (22)",
+        "nameEn": "Indian Ocean Rim Association (IORA) (22)",
+        "Code2": "3K"
+    },
+    {
+        "id": "551",
+        "nameTh": "สมาคมความร่วมมือภูมิภาคเอเชียใต้",
+        "nameEn": "South Asian Association of Regional Cooperation (SAARC)",
+        "Code2": "3L"
+    },
+    {
+        "id": "559",
+        "nameTh": "กลุ่มประเทศคณะมนตรีความมั่นคงรัฐอ่าวอาหรับ",
+        "nameEn": "Gulf Cooperation Council (GCC)",
+        "Code2": "3M"
+    },
+    {
+        "id": "562",
+        "nameTh": "สมาคมการค้าเสรียุโรป (EFTA)",
+        "nameEn": "European Free Trade Association (EFTA)",
+        "Code2": "3N"
+    },
+    {
+        "id": "546",
+        "nameTh": "ประชาคมรัฐเอกราช (CIS)",
+        "nameEn": "Commonwealth of Independent States (CIS)",
+        "Code2": "3O"
+    },
+    {
+        "id": "578",
+        "nameTh": "เขตการค้าเสรีอเมริกาเหนือ (นาฟต้า)",
+        "nameEn": "NAFTA",
+        "Code2": "3P"
+    },
+    {
+        "id": "543",
+        "nameTh": "กลุ่มข้อตกลงความสัมพันธ์ทางเศรษฐกิจที่ใกล้ชิดระหว่างออสเตรเลียและนิวซีแลนด์(เซอร์)",
+        "nameEn": "Australia-New Zealand Closer Economic Relations and Trade Agreement (CER)",
+        "Code2": "3Q"
+    },
+    {
+        "id": "545",
+        "nameTh": "เขตการค้าเสรียุโรปกลาง (เซฟต้า)",
+        "nameEn": "Central European Free Trade Agreement (CEFTA)",
+        "Code2": "3R"
+    },
+    {
+        "id": "544",
+        "nameTh": "ตลาดร่วมอเมริกาใต้ตอนล่าง (MERCOSUR)",
+        "nameEn": "Southern Common Market (MERCOSUR)",
+        "Code2": "3S"
+    },
+    {
+        "id": "604",
+        "nameTh": "สหภาพยุโรป(28)",
+        "nameEn": "EU(28)",
+        "Code2": "3T"
+    },
+    {
+        "id": "605",
+        "nameTh": "สมาคมความร่วมมือแห่งภูมิภาคมหาสมุทรอินเดีย(21)",
+        "nameEn": "Indian Ocean Rim Association for Regional Cooperation (IOR-ARC)(21)",
+        "Code2": "3U"
+    },
+    {
+        "id": "607",
+        "nameTh": "สหภาพยุโรป(27)ไม่รวมสหราชอาณาจักร",
+        "nameEn": "EU(27)Not including UK",
+        "Code2": "3V"
+    },
+    {
+        "id": "615",
+        "nameTh": "สภาพศุลกากรแอฟริกาตอนใต้",
+        "nameEn": "SOUTHERN AFRICA CUSTOMS UNION : SACU",
+        "Code2": "4A"
+    },
+    {
+        "id": "616",
+        "nameTh": "ตะวันออกกลางและแอฟริกาตอนเหนือ",
+        "nameEn": "MIDDLE EAST AND NORTH AFRICA : MENA",
+        "Code2": "4B"
+    },
+    {
+        "id": "617",
+        "nameTh": "ตลาดร่วมแห่งแอฟริกาตะวันออกและแอฟริกาตอนใต้",
+        "nameEn": "COMMON MARKET FOR EASTERN AND SOUTHERN AFRICA : COMESA",
+        "Code2": "4C"
+    },
+    {
+        "id": "619",
+        "nameTh": "ประชาคมแอฟริกาตะวันออก",
+        "nameEn": "EASTERN AFRICAN COMMUNITY : EAC",
+        "Code2": "4D"
+    },
+    {
+        "id": "620",
+        "nameTh": "ประชาคมเพื่อการพัฒนาแอฟริกาตอนใต้",
+        "nameEn": "SOUTHERN AFRICAN DEVELOPMENT COMMUNITY : SADC",
+        "Code2": "4E"
+    },
+    {
+        "id": "622",
+        "nameTh": "เขตการค้าเสรีไตรภาคี",
+        "nameEn": "TRIPATITE FREE TRADE AREA : TFTA",
+        "Code2": "4F"
+    },
+    {
+        "id": "623",
+        "nameTh": "องค์การความร่วมมืออิสลาม",
+        "nameEn": "ORGANISATION OF ISLAMIC COOPERATION : OIC",
+        "Code2": "4G"
+    },
+    {
+        "id": "625",
+        "nameTh": "สมาคมแห่งภูมิภาคมหาสมุทรอินเดีย (23)",
+        "nameEn": "Indian Ocean Rim Association (IORA) (23)",
+        "Code2": "4H"
+    },
+    {
+        "id": "627",
+        "nameTh": "กรอบความร่วมมือเอเชีย",
+        "nameEn": "ASIA COOPERATION DIALOGUE : ACD",
+        "Code2": "4I"
+    },
+    {
+        "id": "628",
+        "nameTh": "การประชุมว่าด้วยการส่งเสริมปฏิสัมพันธ์และมาตรการสร้างความไว้เนื้อเชื่อใจระหว่างประเทศในภูมิภาคเอเชีย",
+        "nameEn": "CONFERENCE ON INTERACTION AND CONFIDENCE-BUILDING MEASURES IN ASIA : CICA",
+        "Code2": "4J"
+    },
+    {
+        "id": "637",
+        "nameTh": "กลุ่มพันธมิตรแปซิฟิก (PA)",
+        "nameEn": "Pacific Alliance (PA)",
+        "Code2": "4K"
+    },
+    {
+        "id": "638",
+        "nameTh": "กรอบความร่วมมือทางเศรษฐกิจอาเซียนบวกสาม (APT)",
+        "nameEn": "ASEAN Plus Three Cooperation (APT)",
+        "Code2": "4L"
+    },
+    {
+        "id": "639",
+        "nameTh": "ประเทศบวกสาม (กรอบความร่วมมือทางเศรษฐกิจอาเซียนบวกสาม)",
+        "nameEn": "Plus Three Countries",
+        "Code2": "4M"
+    },
+    {
+        "id": "640",
+        "nameTh": "กรอบความร่วมมือทางเศรษฐกิจอินโด-แปซิฟิก (IPEF)",
+        "nameEn": "Indo-Pacific Economic Framework (IPEF)",
+        "Code2": "4N"
+    },
+    {
+        "id": "641",
+        "nameTh": "บริกส์ (5)",
+        "nameEn": "BRICS (5)",
+        "Code2": "4O"
+    },
+    {
+        "id": "642",
+        "nameTh": "บริกส์ (9)",
+        "nameEn": "BRICS (9)",
+        "Code2": "4P"
+    },
+    {
+        "id": "644",
+        "nameTh": "แม่โขง-เกาหลี (ความร่วมมือลุ่มน้ำโขงกับสาธารณรัฐเกาหลี) (Mekong - ROK)",
+        "nameEn": "Mekong - Republic of Korea Cooperation (Mekong - ROK)",
+        "Code2": "4R"
+    },
+    {
+        "id": "645",
+        "nameTh": "แม่โขง-ญี่ปุ่น (ความร่วมมือประเทศลุ่มน้ำโขงกับญี่ปุ่น) (MJC)",
+        "nameEn": "Mekong - Japan Cooperation (MJC)",
+        "Code2": "4S"
+    },
+    {
+        "id": "646",
+        "nameTh": "แม่โขง-อินเดีย (ความร่วมมือลุ่มน้ำโขง-คงคา) (MGC)",
+        "nameEn": "Mekong - Ganga Cooperation (MGC)",
+        "Code2": "4T"
+    },
+    {
+        "id": "508",
+        "nameTh": "อารูบาโบแนร์และคูรากัว",
+        "nameEn": "ARUBA,BONAIRE AND CURAKUA",
+        "Code2": "AB"
+    },
+    {
+        "id": "355",
+        "nameTh": "อันดอร์รา",
+        "nameEn": "ANDORRA",
+        "Code2": "AD"
+    },
+    {
+        "id": "285",
+        "nameTh": "สหรัฐอาหรับเอมิเรตส์",
+        "nameEn": "UNITED ARAB EMIRATES",
+        "Code2": "AE"
+    },
+    {
+        "id": "276",
+        "nameTh": "อัฟกานิสถาน",
+        "nameEn": "AFGHANISTAN",
+        "Code2": "AF"
+    },
+    {
+        "id": "406",
+        "nameTh": "แอนติกัวและบาร์บูดา",
+        "nameEn": "ANTIQUA AND BARBUDA",
+        "Code2": "AG"
+    },
+    {
+        "id": "375",
+        "nameTh": "แองกิลลา",
+        "nameEn": "ANGUILLA",
+        "Code2": "AI"
+    },
+    {
+        "id": "330",
+        "nameTh": "แอลเบเนีย",
+        "nameEn": "ALBANIA",
+        "Code2": "AL"
+    },
+    {
+        "id": "331",
+        "nameTh": "อาร์เมเนีย",
+        "nameEn": "ARMENIA",
+        "Code2": "AM"
+    },
+    {
+        "id": "376",
+        "nameTh": "เนเธอร์แลนด์แอนทิลลีส",
+        "nameEn": "NETHERLD ANTILLES",
+        "Code2": "AN"
+    },
+    {
+        "id": "424",
+        "nameTh": "แองโกลา",
+        "nameEn": "ANGOLA",
+        "Code2": "AO"
+    },
+    {
+        "id": "509",
+        "nameTh": "แอนตาร์กติกา",
+        "nameEn": "ANTARCTICA",
+        "Code2": "AQ"
+    },
+    {
+        "id": "407",
+        "nameTh": "อาร์เจนตินา",
+        "nameEn": "ARGENTINA",
+        "Code2": "AR"
+    },
+    {
+        "id": "510",
+        "nameTh": "อเมริกันซามัวร์",
+        "nameEn": "AMERICAN SAMOA",
+        "Code2": "AS"
+    },
+    {
+        "id": "312",
+        "nameTh": "ออสเตรีย",
+        "nameEn": "AUSTRIA",
+        "Code2": "AT"
+    },
+    {
+        "id": "483",
+        "nameTh": "ออสเตรเลีย",
+        "nameEn": "AUSTRALIA",
+        "Code2": "AU"
+    },
+    {
+        "id": "511",
+        "nameTh": "อรูบา",
+        "nameEn": "ARUBA",
+        "Code2": "AW"
+    },
+    {
+        "id": "603",
+        "nameTh": "หมู่เกาะโอลันด์",
+        "nameEn": "ALAND ISLANDS",
+        "Code2": "AX"
+    },
+    {
+        "id": "332",
+        "nameTh": "อาเซอร์ไบจาน",
+        "nameEn": "AZERBAIJAN",
+        "Code2": "AZ"
+    },
+    {
+        "id": "567",
+        "nameTh": "บอสเนียและเฮอร์เซโกวีนา",
+        "nameEn": "BOSNIA AND HERZEGOVINA",
+        "Code2": "BA"
+    },
+    {
+        "id": "377",
+        "nameTh": "บาร์เบโดส",
+        "nameEn": "BARBADOS",
+        "Code2": "BB"
+    },
+    {
+        "id": "277",
+        "nameTh": "บังกลาเทศ",
+        "nameEn": "BANGLADESH",
+        "Code2": "BD"
+    },
+    {
+        "id": "313",
+        "nameTh": "เบลเยียม",
+        "nameEn": "BELGIUM",
+        "Code2": "BE"
+    },
+    {
+        "id": "425",
+        "nameTh": "บูร์กินาฟาโซ",
+        "nameEn": "BURKINA FASO",
+        "Code2": "BF"
+    },
+    {
+        "id": "333",
+        "nameTh": "บัลแกเรีย",
+        "nameEn": "BULGARIA",
+        "Code2": "BG"
+    },
+    {
+        "id": "286",
+        "nameTh": "บาห์เรน",
+        "nameEn": "BAHRAIN",
+        "Code2": "BH"
+    },
+    {
+        "id": "426",
+        "nameTh": "บุรุนดี",
+        "nameEn": "BURUNDI",
+        "Code2": "BI"
+    },
+    {
+        "id": "427",
+        "nameTh": "เบนิน",
+        "nameEn": "BENIN",
+        "Code2": "BJ"
+    },
+    {
+        "id": "601",
+        "nameTh": "เซนต์บาร์เธเลมี",
+        "nameEn": "Saint Barthelemy",
+        "Code2": "BL"
+    },
+    {
+        "id": "378",
+        "nameTh": "เบอร์มิวดา",
+        "nameEn": "BERMUDA",
+        "Code2": "BM"
+    },
+    {
+        "id": "266",
+        "nameTh": "บรูไน",
+        "nameEn": "BRUNEI",
+        "Code2": "BN"
+    },
+    {
+        "id": "408",
+        "nameTh": "โบลิเวีย",
+        "nameEn": "BOLIVIA",
+        "Code2": "BO"
+    },
+    {
+        "id": "599",
+        "nameTh": "BONAIRE,SAINT EUSTATIUS AND SABA",
+        "nameEn": "BONAIRE,SAINT EUSTATIUS AND SABA",
+        "Code2": "BQ"
+    },
+    {
+        "id": "409",
+        "nameTh": "บราซิล",
+        "nameEn": "BRAZIL",
+        "Code2": "BR"
+    },
+    {
+        "id": "379",
+        "nameTh": "บาฮามาส",
+        "nameEn": "BAHAMAS",
+        "Code2": "BS"
+    },
+    {
+        "id": "278",
+        "nameTh": "ภูฎาน",
+        "nameEn": "BHUTAN",
+        "Code2": "BT"
+    },
+    {
+        "id": "512",
+        "nameTh": "หมู่เกาะโบเวท",
+        "nameEn": "BOUVET ISLANDS",
+        "Code2": "BV"
+    },
+    {
+        "id": "428",
+        "nameTh": "บอตสวานา",
+        "nameEn": "BOTSWANA",
+        "Code2": "BW"
+    },
+    {
+        "id": "334",
+        "nameTh": "เบลารุส",
+        "nameEn": "BELARUS",
+        "Code2": "BY"
+    },
+    {
+        "id": "380",
+        "nameTh": "เบลิซ",
+        "nameEn": "BELIZE",
+        "Code2": "BZ"
+    },
+    {
+        "id": "371",
+        "nameTh": "แคนาดา",
+        "nameEn": "CANADA",
+        "Code2": "CA"
+    },
+    {
+        "id": "513",
+        "nameTh": "หมู่เกาะโคโคส",
+        "nameEn": "COCOS ISLANDS",
+        "Code2": "CC"
+    },
+    {
+        "id": "592",
+        "nameTh": "สาธารณรัฐประชาธิปไตยคองโก",
+        "nameEn": "REPUBLIC OF THE CONGO",
+        "Code2": "CD"
+    },
+    {
+        "id": "429",
+        "nameTh": "แอฟริกากลาง",
+        "nameEn": "CENTRAL AFRICA",
+        "Code2": "CF"
+    },
+    {
+        "id": "430",
+        "nameTh": "คองโก",
+        "nameEn": "CONGO",
+        "Code2": "CG"
+    },
+    {
+        "id": "356",
+        "nameTh": "สวิตเซอร์แลนด์",
+        "nameEn": "SWITZERLAND",
+        "Code2": "CH"
+    },
+    {
+        "id": "431",
+        "nameTh": "โกตดิวัวร์",
+        "nameEn": "IVORY COAST",
+        "Code2": "CI"
+    },
+    {
+        "id": "484",
+        "nameTh": "หมู่เกาะดุก",
+        "nameEn": "COOK ISLANDS",
+        "Code2": "CK"
+    },
+    {
+        "id": "410",
+        "nameTh": "ชิลี",
+        "nameEn": "CHILE",
+        "Code2": "CL"
+    },
+    {
+        "id": "432",
+        "nameTh": "แคเมอรูน",
+        "nameEn": "CAMEROON",
+        "Code2": "CM"
+    },
+    {
+        "id": "302",
+        "nameTh": "จีน",
+        "nameEn": "CHINA",
+        "Code2": "CN"
+    },
+    {
+        "id": "411",
+        "nameTh": "โคลอมเบีย",
+        "nameEn": "COLOMBIA",
+        "Code2": "CO"
+    },
+    {
+        "id": "433",
+        "nameTh": "หมู่เกาะคานารี",
+        "nameEn": "CANARY ISLANDS",
+        "Code2": "CP"
+    },
+    {
+        "id": "381",
+        "nameTh": "คอสตาริกา",
+        "nameEn": "COSTA RICA",
+        "Code2": "CR"
+    },
+    {
+        "id": "335",
+        "nameTh": "เซอร์เบีย & มอนเตเนโกร (เดิม)",
+        "nameEn": "SERBIA & MONTENEGRO (Former)",
+        "Code2": "CS"
+    },
+    {
+        "id": "382",
+        "nameTh": "คิวบา",
+        "nameEn": "CUBA",
+        "Code2": "CU"
+    },
+    {
+        "id": "434",
+        "nameTh": "หมู่เกาะเคปเวิร์ด",
+        "nameEn": "CAPE VERDE ISLANDS",
+        "Code2": "CV"
+    },
+    {
+        "id": "597",
+        "nameTh": "CURACAO",
+        "nameEn": "CURACAO",
+        "Code2": "CW"
+    },
+    {
+        "id": "485",
+        "nameTh": "หมู่เกาะคริสต์มาส",
+        "nameEn": "CHRISTMAS ISLANDS",
+        "Code2": "CX"
+    },
+    {
+        "id": "287",
+        "nameTh": "ไซปรัส",
+        "nameEn": "CYPRUS",
+        "Code2": "CY"
+    },
+    {
+        "id": "336",
+        "nameTh": "สาธารณรัฐเช็ก",
+        "nameEn": "CZECH REPUBLIC",
+        "Code2": "CZ"
+    },
+    {
+        "id": "314",
+        "nameTh": "เยอรมนีตะวันออก",
+        "nameEn": "E. GERMANY",
+        "Code2": "DD"
+    },
+    {
+        "id": "315",
+        "nameTh": "เยอรมนี",
+        "nameEn": "GERMANY",
+        "Code2": "DE"
+    },
+    {
+        "id": "435",
+        "nameTh": "จิบูตี",
+        "nameEn": "DJIBOUTI",
+        "Code2": "DJ"
+    },
+    {
+        "id": "316",
+        "nameTh": "เดนมาร์ก",
+        "nameEn": "DENMARK",
+        "Code2": "DK"
+    },
+    {
+        "id": "383",
+        "nameTh": "โดมินิกา",
+        "nameEn": "DOMINICA",
+        "Code2": "DM"
+    },
+    {
+        "id": "384",
+        "nameTh": "สาธารณรัฐโดมินิกัน",
+        "nameEn": "DOMINICAN REPUBLIC",
+        "Code2": "DO"
+    },
+    {
+        "id": "436",
+        "nameTh": "แอลจีเรีย",
+        "nameEn": "ALGERIA",
+        "Code2": "DZ"
+    },
+    {
+        "id": "412",
+        "nameTh": "เอกวาดอร์",
+        "nameEn": "ECUADOR",
+        "Code2": "EC"
+    },
+    {
+        "id": "357",
+        "nameTh": "เอสโตเนีย",
+        "nameEn": "ESTONIA",
+        "Code2": "EE"
+    },
+    {
+        "id": "437",
+        "nameTh": "อียิปต์",
+        "nameEn": "EGYPT",
+        "Code2": "EG"
+    },
+    {
+        "id": "514",
+        "nameTh": "เวสเทิร์นสะฮารา",
+        "nameEn": "WESTERN SAHARA",
+        "Code2": "EH"
+    },
+    {
+        "id": "529",
+        "nameTh": "เอริเทรีย",
+        "nameEn": "ERITREA",
+        "Code2": "ER"
+    },
+    {
+        "id": "317",
+        "nameTh": "สเปน",
+        "nameEn": "SPAIN",
+        "Code2": "ES"
+    },
+    {
+        "id": "438",
+        "nameTh": "เอธิโอเปีย",
+        "nameEn": "ETHIOPIA",
+        "Code2": "ET"
+    },
+    {
+        "id": "535",
+        "nameTh": "เขตอุตสาหกรรมส่งออก",
+        "nameEn": "EXPORT PROCESSING ZONE",
+        "Code2": "EZ"
+    },
+    {
+        "id": "439",
+        "nameTh": "อัฟฟา (ฝรั่งเศส)",
+        "nameEn": "AFARS & ISSAS (FR)",
+        "Code2": "FA"
+    },
+    {
+        "id": "318",
+        "nameTh": "ฟินแลนด์",
+        "nameEn": "FINLAND",
+        "Code2": "FI"
+    },
+    {
+        "id": "486",
+        "nameTh": "ฟิจิ",
+        "nameEn": "FIJI",
+        "Code2": "FJ"
+    },
+    {
+        "id": "413",
+        "nameTh": "หมู่เกาะฟอล์กแลนด์ (มัลวีนัส)",
+        "nameEn": "FALKLAND ISLANDS (MALVINAS)",
+        "Code2": "FK"
+    },
+    {
+        "id": "487",
+        "nameTh": "ไมโครนีเซีย",
+        "nameEn": "MICRONESIA",
+        "Code2": "FM"
+    },
+    {
+        "id": "358",
+        "nameTh": "หมู่เกาะแฟโร (เดนมาร์ก)",
+        "nameEn": "FAROE ISLANDS (DENMARK)",
+        "Code2": "FO"
+    },
+    {
+        "id": "319",
+        "nameTh": "ฝรั่งเศส",
+        "nameEn": "FRANCE",
+        "Code2": "FR"
+    },
+    {
+        "id": "531",
+        "nameTh": "ฟรานซ์เมโทรโปลิแตน",
+        "nameEn": "FRANCE  METROPOLITAN",
+        "Code2": "FX"
+    },
+    {
+        "id": "534",
+        "nameTh": "เขตปลอดอากร",
+        "nameEn": "FREE ZONE",
+        "Code2": "FZ"
+    },
+    {
+        "id": "440",
+        "nameTh": "กาบอง",
+        "nameEn": "GABON",
+        "Code2": "GA"
+    },
+    {
+        "id": "320",
+        "nameTh": "สหราชอาณาจักร",
+        "nameEn": "UNITED KINGDOM",
+        "Code2": "GB"
+    },
+    {
+        "id": "488",
+        "nameTh": "หมู่เกาะกิลเบอร์ตและเอลลิซ",
+        "nameEn": "GILBERT & ELLICE ISLANDS",
+        "Code2": "GC"
+    },
+    {
+        "id": "385",
+        "nameTh": "เกรเนดา",
+        "nameEn": "GRENADA",
+        "Code2": "GD"
+    },
+    {
+        "id": "337",
+        "nameTh": "จอร์เจีย",
+        "nameEn": "GEORGIA",
+        "Code2": "GE"
+    },
+    {
+        "id": "414",
+        "nameTh": "เฟรนช์เกียนา",
+        "nameEn": "FRENCH GUIANA",
+        "Code2": "GF"
+    },
+    {
+        "id": "593",
+        "nameTh": "GUERNSEY",
+        "nameEn": "GUERNSEY",
+        "Code2": "GG"
+    },
+    {
+        "id": "441",
+        "nameTh": "กานา",
+        "nameEn": "GHANA",
+        "Code2": "GH"
+    },
+    {
+        "id": "359",
+        "nameTh": "ยิบรอลตาร์",
+        "nameEn": "GIBRALTAR",
+        "Code2": "GI"
+    },
+    {
+        "id": "386",
+        "nameTh": "กรีนแลนด์ (เดนมาร์ก)",
+        "nameEn": "GREENLAND (DENMARK)",
+        "Code2": "GL"
+    },
+    {
+        "id": "442",
+        "nameTh": "แกมเบีย",
+        "nameEn": "GAMBIA",
+        "Code2": "GM"
+    },
+    {
+        "id": "443",
+        "nameTh": "กินี",
+        "nameEn": "GUINEA",
+        "Code2": "GN"
+    },
+    {
+        "id": "387",
+        "nameTh": "กวาเดอลูป",
+        "nameEn": "GUADELOUPE",
+        "Code2": "GP"
+    },
+    {
+        "id": "444",
+        "nameTh": "อิเควทอเรียลกินี",
+        "nameEn": "EQUATORIAL GUINEA",
+        "Code2": "GQ"
+    },
+    {
+        "id": "321",
+        "nameTh": "กรีซ",
+        "nameEn": "GREECE",
+        "Code2": "GR"
+    },
+    {
+        "id": "537",
+        "nameTh": "เกาะเซาท์จอร์เจียและหมู่เกาะเซาท์แซนด์วิช",
+        "nameEn": "SOUTH GEORGIA AND THE SOUTH SANDWIC",
+        "Code2": "GS"
+    },
+    {
+        "id": "388",
+        "nameTh": "กัวเตมาลา",
+        "nameEn": "GUATEMALA",
+        "Code2": "GT"
+    },
+    {
+        "id": "489",
+        "nameTh": "กวม",
+        "nameEn": "GUAM",
+        "Code2": "GU"
+    },
+    {
+        "id": "445",
+        "nameTh": "กินี-บิสเซา",
+        "nameEn": "GUINEA-BISSAU",
+        "Code2": "GW"
+    },
+    {
+        "id": "415",
+        "nameTh": "กายอานา",
+        "nameEn": "GUYANA",
+        "Code2": "GY"
+    },
+    {
+        "id": "303",
+        "nameTh": "ฮ่องกง",
+        "nameEn": "HONG KONG",
+        "Code2": "HK"
+    },
+    {
+        "id": "515",
+        "nameTh": "หมู่เกาะเฮิร์ทและแมคโดแนล",
+        "nameEn": "HEARD AND MCDONALD ISLANDS",
+        "Code2": "HM"
+    },
+    {
+        "id": "389",
+        "nameTh": "ฮอนดูรัส",
+        "nameEn": "HONDURAS",
+        "Code2": "HN"
+    },
+    {
+        "id": "338",
+        "nameTh": "โครเอเชีย",
+        "nameEn": "CROATIA",
+        "Code2": "HR"
+    },
+    {
+        "id": "390",
+        "nameTh": "เฮติ",
+        "nameEn": "HAITI",
+        "Code2": "HT"
+    },
+    {
+        "id": "339",
+        "nameTh": "ฮังการี",
+        "nameEn": "HUNGARY",
+        "Code2": "HU"
+    },
+    {
+        "id": "267",
+        "nameTh": "อินโดนีเซีย",
+        "nameEn": "INDONESIA",
+        "Code2": "ID"
+    },
+    {
+        "id": "322",
+        "nameTh": "ไอร์แลนด์",
+        "nameEn": "IRELAND",
+        "Code2": "IE"
+    },
+    {
+        "id": "288",
+        "nameTh": "อิสราเอล",
+        "nameEn": "ISRAEL",
+        "Code2": "IL"
+    },
+    {
+        "id": "590",
+        "nameTh": "ISLE OF MAN",
+        "nameEn": "ISLE OF MAN",
+        "Code2": "IM"
+    },
+    {
+        "id": "279",
+        "nameTh": "อินเดีย",
+        "nameEn": "INDIA",
+        "Code2": "IN"
+    },
+    {
+        "id": "446",
+        "nameTh": "บริติชอินเดียนโอเชียน",
+        "nameEn": "BRITISH INDIAN OCEAN",
+        "Code2": "IO"
+    },
+    {
+        "id": "289",
+        "nameTh": "อิรัก",
+        "nameEn": "IRAQ",
+        "Code2": "IQ"
+    },
+    {
+        "id": "290",
+        "nameTh": "อิหร่าน",
+        "nameEn": "IRAN",
+        "Code2": "IR"
+    },
+    {
+        "id": "360",
+        "nameTh": "ไอซ์แลนด์",
+        "nameEn": "ICELAND",
+        "Code2": "IS"
+    },
+    {
+        "id": "323",
+        "nameTh": "อิตาลี",
+        "nameEn": "ITALY",
+        "Code2": "IT"
+    },
+    {
+        "id": "591",
+        "nameTh": "JERSEY",
+        "nameEn": "JERSEY",
+        "Code2": "JE"
+    },
+    {
+        "id": "391",
+        "nameTh": "จาเมกา",
+        "nameEn": "JAMAICA",
+        "Code2": "JM"
+    },
+    {
+        "id": "291",
+        "nameTh": "จอร์แดน",
+        "nameEn": "JORDAN",
+        "Code2": "JO"
+    },
+    {
+        "id": "304",
+        "nameTh": "ญี่ปุ่น",
+        "nameEn": "JAPAN",
+        "Code2": "JP"
+    },
+    {
+        "id": "447",
+        "nameTh": "เคนยา",
+        "nameEn": "KENYA",
+        "Code2": "KE"
+    },
+    {
+        "id": "340",
+        "nameTh": "คีร์กีซสถาน",
+        "nameEn": "KYRGYZSTAN",
+        "Code2": "KG"
+    },
+    {
+        "id": "268",
+        "nameTh": "กัมพูชา",
+        "nameEn": "CAMBODIA",
+        "Code2": "KH"
+    },
+    {
+        "id": "490",
+        "nameTh": "คิริบาส",
+        "nameEn": "KIRIBATI",
+        "Code2": "KI"
+    },
+    {
+        "id": "448",
+        "nameTh": "คอโมโรส",
+        "nameEn": "COMOROS",
+        "Code2": "KM"
+    },
+    {
+        "id": "392",
+        "nameTh": "เซนต์คิตส์และเนวิส",
+        "nameEn": "ST. KITTS AND NEVIS",
+        "Code2": "KN"
+    },
+    {
+        "id": "305",
+        "nameTh": "เกาหลีเหนือ",
+        "nameEn": "N. KOREA",
+        "Code2": "KP"
+    },
+    {
+        "id": "306",
+        "nameTh": "เกาหลีใต้",
+        "nameEn": "S. KOREA",
+        "Code2": "KR"
+    },
+    {
+        "id": "292",
+        "nameTh": "คูเวต",
+        "nameEn": "KUWAIT",
+        "Code2": "KW"
+    },
+    {
+        "id": "393",
+        "nameTh": "หมู่เกาะเคย์แมน",
+        "nameEn": "CAYMAN ISLANDS",
+        "Code2": "KY"
+    },
+    {
+        "id": "341",
+        "nameTh": "คาซัคสถาน",
+        "nameEn": "KAZAKHSTAN",
+        "Code2": "KZ"
+    },
+    {
+        "id": "269",
+        "nameTh": "สปป. ลาว",
+        "nameEn": "LAO PDR",
+        "Code2": "LA"
+    },
+    {
+        "id": "293",
+        "nameTh": "เลบานอน",
+        "nameEn": "LEBANON",
+        "Code2": "LB"
+    },
+    {
+        "id": "394",
+        "nameTh": "เซนต์ลูเซีย",
+        "nameEn": "ST. LUCIA",
+        "Code2": "LC"
+    },
+    {
+        "id": "361",
+        "nameTh": "ลิกเตนสไตน์",
+        "nameEn": "LIECHTENSTEIN",
+        "Code2": "LI"
+    },
+    {
+        "id": "280",
+        "nameTh": "ศรีลังกา",
+        "nameEn": "SRI LANKA",
+        "Code2": "LK"
+    },
+    {
+        "id": "449",
+        "nameTh": "ไลบีเรีย",
+        "nameEn": "LIBERIA",
+        "Code2": "LR"
+    },
+    {
+        "id": "450",
+        "nameTh": "เลโซโท",
+        "nameEn": "LESOTHO",
+        "Code2": "LS"
+    },
+    {
+        "id": "362",
+        "nameTh": "ลิทัวเนีย",
+        "nameEn": "LITHUANIA",
+        "Code2": "LT"
+    },
+    {
+        "id": "324",
+        "nameTh": "ลักเซมเบิร์ก",
+        "nameEn": "LUXEMBOURG",
+        "Code2": "LU"
+    },
+    {
+        "id": "363",
+        "nameTh": "ลัตเวีย",
+        "nameEn": "LATVIA",
+        "Code2": "LV"
+    },
+    {
+        "id": "451",
+        "nameTh": "ลิเบีย",
+        "nameEn": "LIBYA",
+        "Code2": "LY"
+    },
+    {
+        "id": "452",
+        "nameTh": "โมร็อกโก",
+        "nameEn": "MOROCCO",
+        "Code2": "MA"
+    },
+    {
+        "id": "364",
+        "nameTh": "โมนาโก",
+        "nameEn": "MONACO",
+        "Code2": "MC"
+    },
+    {
+        "id": "342",
+        "nameTh": "มอลโดวา",
+        "nameEn": "MOLDOVA",
+        "Code2": "MD"
+    },
+    {
+        "id": "564",
+        "nameTh": "มอนเตเนโกร",
+        "nameEn": "MONTENEGRO",
+        "Code2": "ME"
+    },
+    {
+        "id": "598",
+        "nameTh": "SAINT MARTIN (FRENCH PART)",
+        "nameEn": "SAINT MARTIN (FRENCH PART)",
+        "Code2": "MF"
+    },
+    {
+        "id": "453",
+        "nameTh": "มาดากัสการ์",
+        "nameEn": "MADAGASCAR",
+        "Code2": "MG"
+    },
+    {
+        "id": "491",
+        "nameTh": "หมู่เกาะมาร์แชล",
+        "nameEn": "MARSHALL ISLANDS",
+        "Code2": "MH"
+    },
+    {
+        "id": "527",
+        "nameTh": "มาซิโดเนีย",
+        "nameEn": "MACEDONIA",
+        "Code2": "MK"
+    },
+    {
+        "id": "454",
+        "nameTh": "มาลี",
+        "nameEn": "MALI",
+        "Code2": "ML"
+    },
+    {
+        "id": "270",
+        "nameTh": "เมียนมา",
+        "nameEn": "MYANMAR",
+        "Code2": "MM"
+    },
+    {
+        "id": "307",
+        "nameTh": "มองโกเลีย",
+        "nameEn": "MONGOLIA",
+        "Code2": "MN"
+    },
+    {
+        "id": "308",
+        "nameTh": "มาเก๊า",
+        "nameEn": "MACAO",
+        "Code2": "MO"
+    },
+    {
+        "id": "492",
+        "nameTh": "เกาะมาเรียนาเหนือ",
+        "nameEn": "NORTHERN MARIANA ISLANDS",
+        "Code2": "MP"
+    },
+    {
+        "id": "395",
+        "nameTh": "มาร์ตินีก",
+        "nameEn": "MARTINIQUE",
+        "Code2": "MQ"
+    },
+    {
+        "id": "455",
+        "nameTh": "มอริเตเนีย",
+        "nameEn": "MAURITANIA",
+        "Code2": "MR"
+    },
+    {
+        "id": "416",
+        "nameTh": "มอนต์เซอร์รัต",
+        "nameEn": "MONTSERRAT",
+        "Code2": "MS"
+    },
+    {
+        "id": "365",
+        "nameTh": "มอลตา",
+        "nameEn": "MALTA",
+        "Code2": "MT"
+    },
+    {
+        "id": "456",
+        "nameTh": "มอริเชียส",
+        "nameEn": "MAURITIUS",
+        "Code2": "MU"
+    },
+    {
+        "id": "281",
+        "nameTh": "มัลดีฟส์",
+        "nameEn": "MALDIVES",
+        "Code2": "MV"
+    },
+    {
+        "id": "457",
+        "nameTh": "มาลาวี",
+        "nameEn": "MALAWI",
+        "Code2": "MW"
+    },
+    {
+        "id": "372",
+        "nameTh": "เม็กซิโก",
+        "nameEn": "MEXICO",
+        "Code2": "MX"
+    },
+    {
+        "id": "271",
+        "nameTh": "มาเลเซีย",
+        "nameEn": "MALAYSIA",
+        "Code2": "MY"
+    },
+    {
+        "id": "458",
+        "nameTh": "โมซัมบิก",
+        "nameEn": "MOZAMBIQUE",
+        "Code2": "MZ"
+    },
+    {
+        "id": "459",
+        "nameTh": "นามิเบีย",
+        "nameEn": "NAMIBIA",
+        "Code2": "NA"
+    },
+    {
+        "id": "493",
+        "nameTh": "นิวแคลีโดเนีย",
+        "nameEn": "NEW CALEDONIA",
+        "Code2": "NC"
+    },
+    {
+        "id": "460",
+        "nameTh": "ไนเจอร์",
+        "nameEn": "NIGER",
+        "Code2": "NE"
+    },
+    {
+        "id": "516",
+        "nameTh": "หมู่เกาะนอร์ฟอล์ก",
+        "nameEn": "NORFOLK ISLAND",
+        "Code2": "NF"
+    },
+    {
+        "id": "461",
+        "nameTh": "ไนจีเรีย",
+        "nameEn": "NIGERIA",
+        "Code2": "NG"
+    },
+    {
+        "id": "396",
+        "nameTh": "นิการากัว",
+        "nameEn": "NICARAGUA",
+        "Code2": "NI"
+    },
+    {
+        "id": "325",
+        "nameTh": "เนเธอร์แลนด์",
+        "nameEn": "NETHERLANDS",
+        "Code2": "NL"
+    },
+    {
+        "id": "366",
+        "nameTh": "นอร์เวย์",
+        "nameEn": "NORWAY",
+        "Code2": "NO"
+    },
+    {
+        "id": "282",
+        "nameTh": "เนปาล",
+        "nameEn": "NEPAL",
+        "Code2": "NP"
+    },
+    {
+        "id": "494",
+        "nameTh": "นาอูรู",
+        "nameEn": "NAURU",
+        "Code2": "NR"
+    },
+    {
+        "id": "517",
+        "nameTh": "นูทรัลโซน",
+        "nameEn": "NEUTRAL ZONE",
+        "Code2": "NT"
+    },
+    {
+        "id": "495",
+        "nameTh": "นีอูเอ",
+        "nameEn": "NIUE",
+        "Code2": "NU"
+    },
+    {
+        "id": "496",
+        "nameTh": "นิวเฮบริดีส",
+        "nameEn": "NEW HEBRIDES",
+        "Code2": "NW"
+    },
+    {
+        "id": "497",
+        "nameTh": "นิวซีแลนด์",
+        "nameEn": "NEW ZEALAND",
+        "Code2": "NZ"
+    },
+    {
+        "id": "294",
+        "nameTh": "โอมาน",
+        "nameEn": "OMAN",
+        "Code2": "OM"
+    },
+    {
+        "id": "518",
+        "nameTh": "ประเทศอื่น",
+        "nameEn": "OTHER COUNTRIES",
+        "Code2": "OT"
+    },
+    {
+        "id": "397",
+        "nameTh": "ปานามา",
+        "nameEn": "PANAMA",
+        "Code2": "PA"
+    },
+    {
+        "id": "417",
+        "nameTh": "เปรู",
+        "nameEn": "PERU",
+        "Code2": "PE"
+    },
+    {
+        "id": "498",
+        "nameTh": "เฟรนช์โปลีนีเซีย",
+        "nameEn": "FRENCH POLYNESIA (TAHITI)",
+        "Code2": "PF"
+    },
+    {
+        "id": "499",
+        "nameTh": "ปาปัวนิวกินี",
+        "nameEn": "PAPUA NEW GUINEA",
+        "Code2": "PG"
+    },
+    {
+        "id": "272",
+        "nameTh": "ฟิลิปปินส์",
+        "nameEn": "PHILIPPINES",
+        "Code2": "PH"
+    },
+    {
+        "id": "283",
+        "nameTh": "ปากีสถาน",
+        "nameEn": "PAKISTAN",
+        "Code2": "PK"
+    },
+    {
+        "id": "343",
+        "nameTh": "โปแลนด์",
+        "nameEn": "POLAND",
+        "Code2": "PL"
+    },
+    {
+        "id": "418",
+        "nameTh": "แซงปิแอร์และมีเกอลง",
+        "nameEn": "ST.PIERRE ET MIQUELO",
+        "Code2": "PM"
+    },
+    {
+        "id": "532",
+        "nameTh": "หมู่เกาะฟิตแคร์น",
+        "nameEn": "PITCAIRN",
+        "Code2": "PN"
+    },
+    {
+        "id": "398",
+        "nameTh": "เปอร์โตริโก",
+        "nameEn": "PUERTO RICO",
+        "Code2": "PR"
+    },
+    {
+        "id": "596",
+        "nameTh": "ปาเลสไตน์",
+        "nameEn": "PALESTINIAN TERRITORY, OCCUPIED",
+        "Code2": "PS"
+    },
+    {
+        "id": "326",
+        "nameTh": "โปรตุเกส",
+        "nameEn": "PORTUGAL",
+        "Code2": "PT"
+    },
+    {
+        "id": "500",
+        "nameTh": "หมู่เกาะแปซิฟิก (สหรัฐฯ)",
+        "nameEn": "US. PACIFIC ISLANDS",
+        "Code2": "PU"
+    },
+    {
+        "id": "501",
+        "nameTh": "ปาลัว",
+        "nameEn": "PALAU",
+        "Code2": "PW"
+    },
+    {
+        "id": "419",
+        "nameTh": "ปารากวัย",
+        "nameEn": "PARAGUAY",
+        "Code2": "PY"
+    },
+    {
+        "id": "295",
+        "nameTh": "กาตาร์",
+        "nameEn": "QATAR",
+        "Code2": "QA"
+    },
+    {
+        "id": "463",
+        "nameTh": "เรอูนียง",
+        "nameEn": "REUNION",
+        "Code2": "RE"
+    },
+    {
+        "id": "344",
+        "nameTh": "โรมาเนีย",
+        "nameEn": "ROMANIA",
+        "Code2": "RO"
+    },
+    {
+        "id": "563",
+        "nameTh": "เซอร์เบีย",
+        "nameEn": "REPUBLIC OF SERBIA",
+        "Code2": "RS"
+    },
+    {
+        "id": "345",
+        "nameTh": "รัสเซีย",
+        "nameEn": "RUSSIAN FEDERATION",
+        "Code2": "RU"
+    },
+    {
+        "id": "464",
+        "nameTh": "รวันดา",
+        "nameEn": "RWANDA",
+        "Code2": "RW"
+    },
+    {
+        "id": "296",
+        "nameTh": "ซาอุดีอาระเบีย",
+        "nameEn": "SAUDI ARABIA",
+        "Code2": "SA"
+    },
+    {
+        "id": "502",
+        "nameTh": "โซโลมอน",
+        "nameEn": "SOLOMON ISLANDS",
+        "Code2": "SB"
+    },
+    {
+        "id": "465",
+        "nameTh": "เซเชลส์",
+        "nameEn": "SEYCHELLES",
+        "Code2": "SC"
+    },
+    {
+        "id": "466",
+        "nameTh": "ซูดาน",
+        "nameEn": "SUDAN",
+        "Code2": "SD"
+    },
+    {
+        "id": "327",
+        "nameTh": "สวีเดน",
+        "nameEn": "SWEDEN",
+        "Code2": "SE"
+    },
+    {
+        "id": "273",
+        "nameTh": "สิงคโปร์",
+        "nameEn": "SINGAPORE",
+        "Code2": "SG"
+    },
+    {
+        "id": "467",
+        "nameTh": "เซ็นต์เฮน่า",
+        "nameEn": "ST.HELENA",
+        "Code2": "SH"
+    },
+    {
+        "id": "346",
+        "nameTh": "สโลวีเนีย",
+        "nameEn": "SLOVENIA",
+        "Code2": "SI"
+    },
+    {
+        "id": "528",
+        "nameTh": "หมู่เกาะสฟาลบาร์และยานไมเอน",
+        "nameEn": "SVALBARD AND JANMAYEN",
+        "Code2": "SJ"
+    },
+    {
+        "id": "347",
+        "nameTh": "สโลวาเกีย",
+        "nameEn": "SLOVAKIA",
+        "Code2": "SK"
+    },
+    {
+        "id": "468",
+        "nameTh": "เซียร์ราลีโอน",
+        "nameEn": "SIERRA LEONE",
+        "Code2": "SL"
+    },
+    {
+        "id": "367",
+        "nameTh": "ซานมารีโน",
+        "nameEn": "SAN MARINO",
+        "Code2": "SM"
+    },
+    {
+        "id": "469",
+        "nameTh": "เซเนกัล",
+        "nameEn": "SENEGAL",
+        "Code2": "SN"
+    },
+    {
+        "id": "470",
+        "nameTh": "โซมาเลีย",
+        "nameEn": "SOMALIA",
+        "Code2": "SO"
+    },
+    {
+        "id": "519",
+        "nameTh": "ซาบาร์",
+        "nameEn": "SABAH (MALAYSIA)",
+        "Code2": "SP"
+    },
+    {
+        "id": "420",
+        "nameTh": "ซูรินาเม",
+        "nameEn": "SURINAME",
+        "Code2": "SR"
+    },
+    {
+        "id": "595",
+        "nameTh": "ซูดานใต้",
+        "nameEn": "SOUTH SUDAN",
+        "Code2": "SS"
+    },
+    {
+        "id": "471",
+        "nameTh": "เซาโตเมและปรินซิเป",
+        "nameEn": "SAO TOME & PRINCIPE",
+        "Code2": "ST"
+    },
+    {
+        "id": "399",
+        "nameTh": "เอลซัลวาดอร์",
+        "nameEn": "EL SALVADOR",
+        "Code2": "SV"
+    },
+    {
+        "id": "520",
+        "nameTh": "ซาราวัค",
+        "nameEn": "SARAWAK (MALAYSIA)",
+        "Code2": "SW"
+    },
+    {
+        "id": "600",
+        "nameTh": "เกาะเซนต์มาร์ติน",
+        "nameEn": "SintMaartin",
+        "Code2": "SX"
+    },
+    {
+        "id": "297",
+        "nameTh": "ซีเรีย",
+        "nameEn": "SYRIA",
+        "Code2": "SY"
+    },
+    {
+        "id": "472",
+        "nameTh": "เอสวาตินี",
+        "nameEn": "ESWATINI",
+        "Code2": "SZ"
+    },
+    {
+        "id": "400",
+        "nameTh": "หมู่เกาะเติร์กและไกโกส",
+        "nameEn": "TURKS AND CAICOS ISLANDS",
+        "Code2": "TC"
+    },
+    {
+        "id": "473",
+        "nameTh": "ชาด",
+        "nameEn": "CHAD",
+        "Code2": "TD"
+    },
+    {
+        "id": "503",
+        "nameTh": "เฟรนซ์แปซิฟิก",
+        "nameEn": "FRENCH PACIFIC",
+        "Code2": "TF"
+    },
+    {
+        "id": "474",
+        "nameTh": "โตโก",
+        "nameEn": "TOGO",
+        "Code2": "TG"
+    },
+    {
+        "id": "521",
+        "nameTh": "ไทย",
+        "nameEn": "THAILAND",
+        "Code2": "TH"
+    },
+    {
+        "id": "349",
+        "nameTh": "ทาจิกิสถาน",
+        "nameEn": "TAJIKISTAN",
+        "Code2": "TJ"
+    },
+    {
+        "id": "522",
+        "nameTh": "โตกีลู",
+        "nameEn": "TOKELAU",
+        "Code2": "TK"
+    },
+    {
+        "id": "594",
+        "nameTh": "ติมอร์-เลสเต",
+        "nameEn": "TIMOR-LESTE",
+        "Code2": "TL"
+    },
+    {
+        "id": "350",
+        "nameTh": "เติร์กเมนิสถาน",
+        "nameEn": "TURKMENISTAN",
+        "Code2": "TM"
+    },
+    {
+        "id": "475",
+        "nameTh": "ตูนิเซีย",
+        "nameEn": "TUNISIA",
+        "Code2": "TN"
+    },
+    {
+        "id": "504",
+        "nameTh": "ตองกา",
+        "nameEn": "TONGA",
+        "Code2": "TO"
+    },
+    {
+        "id": "523",
+        "nameTh": "ติมัวร์ตะวันออก",
+        "nameEn": "EAST TIMOR",
+        "Code2": "TP"
+    },
+    {
+        "id": "298",
+        "nameTh": "ตุรกี",
+        "nameEn": "TURKIYE",
+        "Code2": "TR"
+    },
+    {
+        "id": "401",
+        "nameTh": "ตรินิแดดและโตเบโก",
+        "nameEn": "TRINIDAD & TOBAGO",
+        "Code2": "TT"
+    },
+    {
+        "id": "524",
+        "nameTh": "ตูวาลู",
+        "nameEn": "TUVALU",
+        "Code2": "TV"
+    },
+    {
+        "id": "309",
+        "nameTh": "ไต้หวัน",
+        "nameEn": "TAIWAN",
+        "Code2": "TW"
+    },
+    {
+        "id": "476",
+        "nameTh": "แทนซาเนีย",
+        "nameEn": "TANZANIA",
+        "Code2": "TZ"
+    },
+    {
+        "id": "351",
+        "nameTh": "ยูเครน",
+        "nameEn": "UKRAINE",
+        "Code2": "UA"
+    },
+    {
+        "id": "477",
+        "nameTh": "ยูกันดา",
+        "nameEn": "UGANDA",
+        "Code2": "UG"
+    },
+    {
+        "id": "525",
+        "nameTh": "ยูเอส ไมเนอร์",
+        "nameEn": "US. MINOR OUTLYING ISLANDS",
+        "Code2": "UM"
+    },
+    {
+        "id": "373",
+        "nameTh": "สหรัฐอเมริกา",
+        "nameEn": "U.S.A.",
+        "Code2": "US"
+    },
+    {
+        "id": "421",
+        "nameTh": "อุรุกวัย",
+        "nameEn": "URUGUAY",
+        "Code2": "UY"
+    },
+    {
+        "id": "352",
+        "nameTh": "อุซเบกิสถาน",
+        "nameEn": "UZBEKISTAN",
+        "Code2": "UZ"
+    },
+    {
+        "id": "368",
+        "nameTh": "นครวาติกัน",
+        "nameEn": "VATICAN CITY STATE",
+        "Code2": "VA"
+    },
+    {
+        "id": "402",
+        "nameTh": "เซนต์วินเซนต์",
+        "nameEn": "ST. VINCENT",
+        "Code2": "VC"
+    },
+    {
+        "id": "422",
+        "nameTh": "เวเนซุเอลา",
+        "nameEn": "VENEZUELA",
+        "Code2": "VE"
+    },
+    {
+        "id": "403",
+        "nameTh": "หมู่เกาะเวอร์จิน (อังกฤษ)",
+        "nameEn": "BRITISH VIRGIN ISLANDS",
+        "Code2": "VG"
+    },
+    {
+        "id": "404",
+        "nameTh": "หมู่เกาะเวอร์จิน(สหรัฐ)",
+        "nameEn": "US. VIRGIN ISLANDS",
+        "Code2": "VI"
+    },
+    {
+        "id": "274",
+        "nameTh": "เวียดนาม",
+        "nameEn": "VIETNAM",
+        "Code2": "VN"
+    },
+    {
+        "id": "505",
+        "nameTh": "วานูอาตู",
+        "nameEn": "VANUATU",
+        "Code2": "VU"
+    },
+    {
+        "id": "526",
+        "nameTh": "หมู่เกาะวาลลิสและฟุตูนา",
+        "nameEn": "WALLIS AND FUTUNA ISLANDS",
+        "Code2": "WF"
+    },
+    {
+        "id": "506",
+        "nameTh": "ซามัวตะวันตก",
+        "nameEn": "WESTERN SAMOA",
+        "Code2": "WS"
+    },
+    {
+        "id": "299",
+        "nameTh": "เยเมนใต้",
+        "nameEn": "S. YEMEN",
+        "Code2": "YD"
+    },
+    {
+        "id": "300",
+        "nameTh": "เยเมน",
+        "nameEn": "YEMEN",
+        "Code2": "YE"
+    },
+    {
+        "id": "530",
+        "nameTh": "มายอต",
+        "nameEn": "MAYOTTE",
+        "Code2": "YT"
+    },
+    {
+        "id": "353",
+        "nameTh": "ยูโกสลาเวีย",
+        "nameEn": "YUGOSLAVIA",
+        "Code2": "YU"
+    },
+    {
+        "id": "533",
+        "nameTh": "นอกเขตต่อเนื่องราชอาณาจักร",
+        "nameEn": "HIGH SEA",
+        "Code2": "YY"
+    },
+    {
+        "id": "478",
+        "nameTh": "แอฟริกาใต้",
+        "nameEn": "SOUTH AFRICA",
+        "Code2": "ZA"
+    },
+    {
+        "id": "479",
+        "nameTh": "แซมเบีย",
+        "nameEn": "ZAMBIA",
+        "Code2": "ZM"
+    },
+    {
+        "id": "480",
+        "nameTh": "ซาอีร์",
+        "nameEn": "ZAIRE",
+        "Code2": "ZR"
+    },
+    {
+        "id": "481",
+        "nameTh": "ซิมบับเว",
+        "nameEn": "ZIMBABWE",
+        "Code2": "ZW"
+    },
+    {
+        "id": "536",
+        "nameTh": "เขตต่อเนื่องราชอาณาจักร",
+        "nameEn": "CONTIQUOUS ZONE",
+        "Code2": "ZZ"
+    }
+]
