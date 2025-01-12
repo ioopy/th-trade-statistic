@@ -112,7 +112,7 @@ def create_countries_file(json_file_path, csv_file_path, countries_json_path, mo
                     "Year": year,
                     "Country": record.get("Region", ""),
                     "Im/Ex": 'Export',
-                    "HS Code": record.get("ID", ""),
+                    "HS Code": str(record.get("ID", "")),
                     "Title": record.get("ProductName", ""),
                     "AgriQuantity": record.get("QuantityMonth", ""),
                     "AgriValue": record.get("ValueMonth", ""),
