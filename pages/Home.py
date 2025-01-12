@@ -103,6 +103,14 @@ def main():
     # Language Selection
     selected_language = st.radio("Select Language", ["th", "en"], index=1, horizontal=True)
 
+    # Define file paths
+    json_file_path = "data/export_region.json"  # Replace with your JSON file path
+    csv_file_path = "data/export_region.csv"   # Replace with your desired CSV output path
+    json_countries_file_path = "data/export_countries.json"  # Replace with your JSON file path
+    csv_countries_file_path = "data/export_countries.csv"   # Replace with your desired CSV output path
+    region_json = "data/countries.json"
+    countries_json = "data/countries.json"
+
     # Buttons
     if st.button("Search"):
         payload = {
@@ -114,14 +122,6 @@ def main():
             "sort": selected_order,
             "lang": selected_language
         }
-
-        # Define file paths
-        json_file_path = "data/export_region.json"  # Replace with your JSON file path
-        csv_file_path = "data/export_region.csv"   # Replace with your desired CSV output path
-        json_countries_file_path = "data/export_countries.json"  # Replace with your JSON file path
-        csv_countries_file_path = "data/export_countries.csv"   # Replace with your desired CSV output path
-        region_json = "data/countries.json"
-        countries_json = "data/countries.json"
 
         # Clear old CSV files
         for file_path in [csv_file_path, csv_countries_file_path]:
@@ -142,9 +142,22 @@ def main():
             if is_countries_successful:
                 st.success("Create countries file complete!")
 
-        # Add download buttons for the new files
-        download_file_button(csv_file_path, "Download Export Region CSV")
-        download_file_button(csv_countries_file_path, "Download Export Countries CSV")
+    # Add download buttons for the new files
+    if os.path.exists(csv_file_path):
+        st.download_button(
+            label="Download Export Region CSV",
+            data=open(csv_file_path, 'rb'),
+            file_name="export_region.csv",
+            mime="text/csv"
+        )
+
+    if os.path.exists(csv_countries_file_path):
+        st.download_button(
+            label="Download Export Countries CSV",
+            data=open(csv_countries_file_path, 'rb'),
+            file_name="export_countries.csv",
+            mime="text/csv"
+        )
 
 
 if __name__ == "__main__":
