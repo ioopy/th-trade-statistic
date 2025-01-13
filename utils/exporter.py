@@ -25,12 +25,20 @@ def create_region_file(json_file_path, csv_file_path, countries_json_path, month
             st.warning(f"Region data not found", icon="⚠️")
             return
 
-        # Add the "Region" field and map country_id to Code2
-        for record in data:
+        # Separate records into main and summary rows
+        main_records = [record for record in data if record.get("RowType") != "S"]
+        summary_records = [record for record in data if record.get("RowType") == "S"]
+
+        # Add the "Region" field and map country_id to Code2 for main records
+        for record in main_records:
             record["Region"] = country_code_map.get(record.get("country_id", ""), "")
-        
-        # Sort data by ID and country_id
-        data.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
+
+        # Sort main records by ID and country_id
+        main_records.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
+
+        # Add the "Region" field for summary records
+        for record in summary_records:
+            record["Region"] = country_code_map.get(record.get("country_id", ""), "")
 
         # Create the CSV file
         with open(csv_file_path, 'w', encoding='utf-8-sig', newline='') as csv_file:
@@ -43,13 +51,28 @@ def create_region_file(json_file_path, csv_file_path, countries_json_path, month
             # Write the header
             writer.writeheader()
 
-            # Write the data rows with mapped fields
-            for record in data:
+            # Write the main data rows with mapped fields
+            for record in main_records:
                 writer.writerow({
                     "Month": month,
                     "Year": year,
                     "Region": record.get("Region", ""),
-                    "HS Code": str(record.get("ID", "")),
+                    "HS Code": f"'{str(record.get('ID', ''))}",
+                    "Title": record.get("ProductName", ""),
+                    "Quantity": record.get("QuantityMonth", ""),
+                    "Value": record.get("ValueMonth", ""),
+                    "Accu Quantity": record.get("Quantity", ""),
+                    "Accu Value": record.get("Value", ""),
+                    "Share": record.get("Share", ""),
+                })
+
+            # Append the summary rows at the end
+            for record in summary_records:
+                writer.writerow({
+                    "Month": month,
+                    "Year": year,
+                    "Region": record.get("Region", ""),
+                    "HS Code": f"{str(record.get('ID', ''))}",
                     "Title": record.get("ProductName", ""),
                     "Quantity": record.get("QuantityMonth", ""),
                     "Value": record.get("ValueMonth", ""),
@@ -86,13 +109,21 @@ def create_countries_file(json_file_path, csv_file_path, countries_json_path, mo
         if not data:
             st.warning(f"Countries data not found", icon="⚠️")
             return
-        
-        # Add the "Region" field and map country_id to Code2
-        for record in data:
+
+        # Separate records into two lists: `main_records` and `summary_records`
+        main_records = [record for record in data if record.get("RowType") != "S"]
+        summary_records = [record for record in data if record.get("RowType") == "S"]
+
+        # Add the "Region" field and map country_id to Code2 for main records
+        for record in main_records:
             record["Region"] = country_code_map.get(record.get("country_id", ""), "")
-        
-        # Sort data by ID and country_id
-        data.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
+
+        # Sort main records by ID and country_id
+        main_records.sort(key=lambda x: (x.get("country_id", ""), x.get("ID", "")))
+
+        # Add the "Region" field for summary records
+        for record in summary_records:
+            record["Region"] = country_code_map.get(record.get("country_id", ""), "")
 
         # Create the CSV file
         with open(csv_file_path, 'w', encoding='utf-8-sig', newline='') as csv_file:
@@ -105,14 +136,30 @@ def create_countries_file(json_file_path, csv_file_path, countries_json_path, mo
             # Write the header
             writer.writeheader()
 
-            # Write the data rows with mapped fields
-            for record in data:
+            # Write the main data rows with mapped fields
+            for record in main_records:
                 writer.writerow({
                     "Month": month,
                     "Year": year,
                     "Country": record.get("Region", ""),
                     "Im/Ex": 'Export',
-                    "HS Code": str(record.get("ID", "")),
+                    "HS Code": f"'{str(record.get('ID', ''))}",  # Ensure HS Code is treated as a string
+                    "Title": record.get("ProductName", ""),
+                    "AgriQuantity": record.get("QuantityMonth", ""),
+                    "AgriValue": record.get("ValueMonth", ""),
+                    "Sum AgriQuantity": record.get("Quantity", ""),
+                    "Sum AgriValue": record.get("Value", ""),
+                    "Share": record.get("Share", ""),
+                })
+
+            # Append the summary rows at the end
+            for record in summary_records:
+                writer.writerow({
+                    "Month": month,
+                    "Year": year,
+                    "Country": record.get("Region", ""),
+                    "Im/Ex": 'Export',
+                    "HS Code": f"{str(record.get('ID', ''))}",  # Ensure HS Code is treated as a string
                     "Title": record.get("ProductName", ""),
                     "AgriQuantity": record.get("QuantityMonth", ""),
                     "AgriValue": record.get("ValueMonth", ""),
@@ -126,3 +173,4 @@ def create_countries_file(json_file_path, csv_file_path, countries_json_path, mo
     except Exception as e:
         st.error(f"An error occurred while creating the CSV file: {e}")
         return False
+

@@ -33,6 +33,7 @@ def fetch(payload, selected_countries):
             with open(file_path, 'w', encoding='utf-8') as file:
                 json.dump([], file, ensure_ascii=False)  # Initialize as an empty JSON array
 
+    digit = payload['hscodedigits']
     # Process each selected country
     for country in selected_countries:
         country_id = country["id"]
@@ -56,12 +57,22 @@ def fetch(payload, selected_countries):
                 records = data["records"]  # Extract the `records` field
 
                 # Filter records based on the `id` column
-                filtered_records = [
-                    record for record in records
-                    if "ID" in record and (
-                        (100 <= int(record["ID"]) <= 2399) or (4001 <= int(record["ID"]) <= 4099)
-                    )
-                ]
+                if digit == "4":
+                    # Apply filtering only if `hscodedigits` equals "4"
+                    filtered_records = [
+                        record for record in records
+                        if (
+                            record.get("RowType") == "S"  # Always include RowType S
+                            or (
+                                "ID" in record and
+                                ((100 <= int(record["ID"]) <= 2399) or (4001 <= int(record["ID"]) <= 4099))
+                            )
+                        )
+                    ]
+
+                else:
+                    # If not 4 digits, do not filter
+                    filtered_records = records
 
                 if not filtered_records:
                     st.warning(f"Data not found for country {country_id} ({country_text}), skipping.", icon="⚠️")
