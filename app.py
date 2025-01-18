@@ -57,7 +57,7 @@ if st.session_state["authentication_status"]:
     for file_path in [csv_file_path, csv_countries_file_path]:
         if os.path.exists(file_path):
             os.remove(file_path) 
-    st.switch_page("pages/Home.py")
+    st.switch_page("pages/Ehscode02.py")
 elif st.session_state["authentication_status"] is False:
     st.error("Username/password is incorrect")
 

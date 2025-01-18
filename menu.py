@@ -1,11 +1,10 @@
 import streamlit as st
 
 def authenticated_menu(initial_page=False):
-    with st.sidebar:
-        # st.title("🎈 Okld's Gallery")
-        st.sidebar.page_link("pages/Home.py", label="🏚️ หน้าแรก")
-        st.sidebar.markdown("---")
-        st.session_state.authenticator.logout("Logout", "sidebar")
+    st.sidebar.page_link("pages/Ehscode02.py", label="1️⃣ การส่งออกของไทยรายประเทศ")
+    st.sidebar.page_link("pages/Ecomcode03.py", label="2️⃣ สินค้าส่งออกสำคัญของไทยรายประเทศ")
+    st.sidebar.markdown("---")
+    st.session_state.authenticator.logout("Logout", "sidebar")
 
 
 def unauthenticated_menu():

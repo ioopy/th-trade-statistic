@@ -1,9 +1,16 @@
+from menu import menu_with_redirect
 import streamlit as st
 from datetime import datetime
 import json
-from utils.fetch_data import fetch
+from utils.fetch_data import fetch, fetch_years
 from utils.exporter import create_region_file, create_countries_file
 import os
+
+from utils.func import hide_header_icons
+
+st.set_page_config(page_title="HS Code Export")
+menu_with_redirect()
+hide_header_icons()
 
 def download_file_button(file_path, button_text):
     if os.path.exists(file_path):
@@ -16,7 +23,6 @@ def download_file_button(file_path, button_text):
                 file_name=file_name,
                 mime="text/csv"
             )
-
 
 def load_data(file_path):
     """Load data from a JSON file."""
@@ -42,11 +48,28 @@ def create_multiselect(label, options, default_values):
         if f"{opt['Code2']} : {opt['nameEn']}" in selected_values
     ]
 
+def create_multiselect2(label, options, default_values):
+    """Create a multiselect and return the selected options."""
+    # Map default values (month IDs) to their corresponding text
+    default_texts = [opt["text"] for opt in options if opt["id"] in default_values]
+
+    # Create the multiselect
+    selected_values = st.multiselect(label, [opt["text"] for opt in options], default=default_texts)
+
+    # Return the selected options as dictionaries
+    return [
+        {"id": opt["id"], "text": opt["text"]}
+        for opt in options
+        if opt["text"] in selected_values
+    ]
+
+
 def main():
-    st.title("Criteria for Export TH Trade statistic Data")
+    st.title("การส่งออกของไทยรายประเทศ")
 
     # Year and Month Selection
-    years = generate_years()
+    year_api_url = "https://tradereport.moc.go.th/lookup/years"
+    years = fetch_years(year_api_url, generate_years)
     months = [
         {"id": i + 1, "text": name}
         for i, name in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])
@@ -56,7 +79,9 @@ def main():
     with col1:
         selected_year = create_selectbox("Select Year", years)
     with col2:
-        selected_month = create_selectbox("Select Month", months, default_index=datetime.now().month - 1)
+        default_months = [datetime.now().month]
+        selected_months = create_multiselect2("Select Month", months, default_values=default_months)
+
 
     # Currency Selection
     currency = [
@@ -115,7 +140,7 @@ def main():
     if st.button("Search"):
         payload = {
             "year": selected_year,
-            "month": selected_month,
+            "month": selected_months,
             "currency": selected_currency,
             "hscodedigits": selected_harmonize["id"],
             "hscode": '',
@@ -136,12 +161,12 @@ def main():
         st.success("Data fetch complete!")
 
         with st.spinner("Begin create region file... Please wait."):
-            is_region_successful = create_region_file(json_file_path, csv_file_path, region_json, selected_month['text'], selected_year['text'])
+            is_region_successful = create_region_file(json_file_path, csv_file_path, region_json, selected_year['id'])
             if is_region_successful:
                 st.success("Create region file complete!")
 
         with st.spinner("Begin create countries file... Please wait."):
-            is_countries_successful = create_countries_file(json_countries_file_path, csv_countries_file_path, countries_json, selected_month['text'], selected_year['text'])
+            is_countries_successful = create_countries_file(json_countries_file_path, csv_countries_file_path, countries_json, selected_year['id'])
             if is_countries_successful:
                 st.success("Create countries file complete!")
 
